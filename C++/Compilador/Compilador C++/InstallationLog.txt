@@ -1,0 +1,192 @@
+************************************* Invoked: Mon Jun 23 09:28:34 2025
+[0] Arguments: C:\Users\Nick\Desktop\Visual Studio Code\Compilador C++\msys2-x86_64-20250622.exe
+[6] Operations sanity check succeeded.
+[12] Using metadata cache from "C:/Users/Nick/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[12] Found 0 cached items.
+[12] Language: es-Latn-419
+[199] Loaded control script ":/metadata/installer-config/control_js"
+[199] Using control script: ":/metadata/installer-config/control_js"
+[6839] Loading component scripts...
+[29952] OverwriteTargetDirectory : Warning : You have selected an existing, non-empty directory for installation.
+Note that it will be completely wiped on uninstallation of this application.
+It is not advisable to install into this directory as installation might fail.
+Do you want to continue? Yes|No
+[41030] cancelInstallation : MSYS2 Question : Do you want to quit the installer application? Yes|No
+[102559] OverwriteTargetDirectory : Warning : You have selected an existing, non-empty directory for installation.
+Note that it will be completely wiped on uninstallation of this application.
+It is not advisable to install into this directory as installation might fail.
+Do you want to continue? Yes|No
+[148619] backup  operation: Mkdir
+[148619] 	- arguments: C:/Users/Nick/Desktop/Visual Studio Code/Nueva carpeta
+[148620] Done
+[148620] perform  operation: Mkdir
+[148620] 	- arguments: C:/Users/Nick/Desktop/Visual Studio Code/Nueva carpeta
+[148620] Done
+[148620] Preparing the installation...
+[148620] Install size: 1 components
+[148631] Preparing to unpack components...
+[148631] backup com.msys2.root concurrent operation: Extract
+[148631] 	- arguments: installer://com.msys2.root/20250622msys64.7z, C:/Users/Nick/Desktop/Visual Studio Code/Nueva carpeta
+[148631] Started
+[149072] Unpacking components...
+[149073] perform com.msys2.root concurrent operation: Extract
+[149073] 	- arguments: installer://com.msys2.root/20250622msys64.7z, C:/Users/Nick/Desktop/Visual Studio Code/Nueva carpeta
+[149073] Started
+[208059] Installing component MSYS2
+[208064] backup com.msys2.root operation: CreateShortcut
+[208064] 	- arguments: C:/Users/Nick/Desktop/Visual Studio Code/Nueva carpeta/mingw64.exe, C:\Users\Nick\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2/MSYS2 MINGW64.lnk, iconPath=C:/Users/Nick/Desktop/Visual Studio Code/Nueva carpeta/mingw64.exe
+[208065] Done
+[208065] perform com.msys2.root operation: CreateShortcut
+[208065] 	- arguments: C:/Users/Nick/Desktop/Visual Studio Code/Nueva carpeta/mingw64.exe, C:\Users\Nick\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2/MSYS2 MINGW64.lnk
+[208096] Done
+[208096] backup com.msys2.root operation: CreateShortcut
+[208097] 	- arguments: C:/Users/Nick/Desktop/Visual Studio Code/Nueva carpeta/ucrt64.exe, C:\Users\Nick\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2/MSYS2 UCRT64.lnk, iconPath=C:/Users/Nick/Desktop/Visual Studio Code/Nueva carpeta/ucrt64.exe
+[208097] Done
+[208097] perform com.msys2.root operation: CreateShortcut
+[208097] 	- arguments: C:/Users/Nick/Desktop/Visual Studio Code/Nueva carpeta/ucrt64.exe, C:\Users\Nick\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2/MSYS2 UCRT64.lnk
+[208106] Done
+[208106] backup com.msys2.root operation: CreateShortcut
+[208106] 	- arguments: C:/Users/Nick/Desktop/Visual Studio Code/Nueva carpeta/clang64.exe, C:\Users\Nick\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2/MSYS2 CLANG64.lnk, iconPath=C:/Users/Nick/Desktop/Visual Studio Code/Nueva carpeta/clang64.exe
+[208106] Done
+[208106] perform com.msys2.root operation: CreateShortcut
+[208106] 	- arguments: C:/Users/Nick/Desktop/Visual Studio Code/Nueva carpeta/clang64.exe, C:\Users\Nick\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2/MSYS2 CLANG64.lnk
+[208116] Done
+[208116] backup com.msys2.root operation: CreateShortcut
+[208116] 	- arguments: C:/Users/Nick/Desktop/Visual Studio Code/Nueva carpeta/clangarm64.exe, C:\Users\Nick\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2/MSYS2 CLANGARM64.lnk, iconPath=C:/Users/Nick/Desktop/Visual Studio Code/Nueva carpeta/clangarm64.exe
+[208117] Done
+[208117] perform com.msys2.root operation: CreateShortcut
+[208117] 	- arguments: C:/Users/Nick/Desktop/Visual Studio Code/Nueva carpeta/clangarm64.exe, C:\Users\Nick\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2/MSYS2 CLANGARM64.lnk
+[208126] Done
+[208126] backup com.msys2.root operation: CreateShortcut
+[208126] 	- arguments: C:/Users/Nick/Desktop/Visual Studio Code/Nueva carpeta/msys2.exe, C:\Users\Nick\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2/MSYS2 MSYS.lnk, iconPath=C:/Users/Nick/Desktop/Visual Studio Code/Nueva carpeta/msys2.exe
+[208126] Done
+[208126] perform com.msys2.root operation: CreateShortcut
+[208126] 	- arguments: C:/Users/Nick/Desktop/Visual Studio Code/Nueva carpeta/msys2.exe, C:\Users\Nick\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2/MSYS2 MSYS.lnk
+[208134] Done
+[208134] backup com.msys2.root operation: Execute
+[208135] 	- arguments: C:/Users/Nick/Desktop/Visual Studio Code/Nueva carpeta\usr\bin\bash.exe, --login, -c, exit
+[208135] Done
+[208136] perform com.msys2.root operation: Execute
+[208136] 	- arguments: C:/Users/Nick/Desktop/Visual Studio Code/Nueva carpeta\usr\bin\bash.exe, --login, -c, exit
+[208189] C:/Users/Nick/Desktop/Visual Studio Code/Nueva carpeta\\usr\\bin\\bash.exe" started, arguments: "--login -c exit
+[210807] Copying skeleton files.\nThese files are for the users to personalise their msys2 experience.\n\nThey will never be overwritten nor automatically updated.\n\n
+[211545] './.bashrc' -> '/home/Nick/.bashrc'\n
+[211772] './.bash_profile' -> '/home/Nick/.bash_profile'\n
+[212008] './.profile' -> '/home/Nick/.profile'\n
+[212488] 'C:\\WINDOWS\\system32\\drivers\\etc\\hosts' -> '/etc/hosts'\n
+[213098] 'C:\\WINDOWS\\system32\\drivers\\etc\\protocol' -> '/etc/protocols'\n
+[213681] 'C:\\WINDOWS\\system32\\drivers\\etc\\services' -> '/etc/services'\n
+[214163] 'C:\\WINDOWS\\system32\\drivers\\etc\\networks' -> '/etc/networks'\n
+[217304] ==> Generating pacman master key. This may take some time.\n
+[221269] ==> Updating trust database...\n
+[221681] ==> Appending keys from msys2.gpg...\n
+[223221] ==> Locally signing trusted keys in keyring...\n
+[224537]   -> Locally signed 5 keys.\n
+[224569] ==> Importing owner trust values...\n
+[224664] ==> Disabling revoked keys in keyring...\n
+[225310]   -> Disabled 4 keys.\n
+[225342] ==> Updating trust database...\n
+[249086] Warning: [1;32mMSYS2 is starting for the first time. Executing the initial setup.[1;0m
+gpg: /etc/pacman.d/gnupg/trustdb.gpg: trustdb created
+gpg: no ultimately trusted keys found
+gpg: starting migration from earlier GnuPG versions
+gpg: porting secret keys from '/etc/pacman.d/gnupg/secring.gpg' to gpg-agent
+gpg: migration succeeded
+gpg: Generating pacman keyring master key...
+gpg: directory '/etc/pacman.d/gnupg/openpgp-revocs.d' created
+gpg: revocation certificate stored as '/etc/pacman.d/gnupg/openpgp-revocs.d/A9BE14DF7B745C1D36AF66FBBAF050622A08B1C8.rev'
+gpg: Done
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   1  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 1u
+gpg: setting ownertrust to 4
+gpg: setting ownertrust to 4
+gpg: setting ownertrust to 4
+gpg: setting ownertrust to 4
+gpg: setting ownertrust to 4
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   1  signed:   5  trust: 0-, 0q, 0n, 0m, 0f, 1u
+gpg: depth: 1  valid:   5  signed:   7  trust: 0-, 0q, 0n, 5m, 0f, 0u
+gpg: depth: 2  valid:   4  signed:   2  trust: 4-, 0q, 0n, 0m, 0f, 0u
+gpg: next trustdb check due at 2025-12-16
+gpg: error retrieving 'alexey.pawlow@gmail.com' via WKD: No data
+gpg: error reading key: No data
+gpg: refreshing 1 key from hkps://keyserver.ubuntu.com
+gpg: key F40D263ECA25678A: "Alexey Pavlov (Alexpux) <alexey.pawlow@gmail.com>" not changed
+gpg: Total number processed: 1
+gpg:              unchanged: 1
+gpg: error retrieving 'david.macek.0@gmail.com' via WKD: No data
+gpg: error reading key: No data
+gpg: refreshing 1 key from hkps://keyserver.ubuntu.com
+gpg: key 790AE56A1D3CFDDC: "David Macek (MSYS2 master key) <david.macek.0@gmail.com>" not changed
+gpg: Total number processed: 1
+gpg:              unchanged: 1
+gpg: error retrieving 'martellmalone@gmail.com' via WKD: No data
+gpg: error reading key: No data
+gpg: refreshing 1 key from hkps://keyserver.ubuntu.com
+gpg: key DA7EF2ABAEEA755C: "Martell Malone (martell) <martellmalone@gmail.com>" not changed
+gpg: Total number processed: 1
+gpg:              unchanged: 1
+gpg: error retrieving 'reiter.christoph@gmail.com' via WKD: No data
+gpg: error reading key: No data
+gpg: refreshing 1 key from hkps://keyserver.ubuntu.com
+gpg: key 755B8182ACD22879: "Christoph Reiter (MSYS2 master key) <reiter.christoph@gmail.com>" not changed
+gpg: Total number processed: 1
+gpg:              unchanged: 1
+gpg: error retrieving 'icquinteiro@gmail.com' via WKD: No data
+gpg: error reading key: No data
+gpg: refreshing 1 key from hkps://keyserver.ubuntu.com
+gpg: key 9F418C233E652008: "Ignacio Casal Quinteiro <icquinteiro@gmail.com>" not changed
+gpg: Total number processed: 1
+gpg:              unchanged: 1
+gpg: error retrieving 'mingw.android@gmail.com' via WKD: No data
+gpg: error reading key: No data
+gpg: refreshing 1 key from hkps://keyserver.ubuntu.com
+gpg: key BBE514E53E0D0813: "Ray Donnelly (MSYS2 Developer - master key) <mingw.android@gmail.com>" not changed
+gpg: Total number processed: 1
+gpg:              unchanged: 1
+gpg: error retrieving 'alexpux@gmail.com' via WKD: No data
+gpg: error reading key: No data
+gpg: refreshing 1 key from hkps://keyserver.ubuntu.com
+gpg: key 5F92EFC1A47D45A1: "Alexey Pavlov (Alexpux) <alexpux@gmail.com>" not changed
+gpg: Total number processed: 1
+gpg:              unchanged: 1
+gpg: error retrieving 'david.macek.0@gmail.com' via WKD: No data
+gpg: error reading key: No data
+gpg: refreshing 1 key from hkps://keyserver.ubuntu.com
+gpg: key 974C8BE49078F532: "David Macek <david.macek.0@gmail.com>" not changed
+gpg: Total number processed: 1
+gpg:              unchanged: 1
+gpg: error retrieving 'reiter.christoph@gmail.com' via WKD: No data
+gpg: error reading key: No data
+gpg: refreshing 1 key from hkps://keyserver.ubuntu.com
+gpg: key FA11531AA0AA7F57: "Christoph Reiter (MSYS2 development key) <reiter.christoph@gmail.com>" not changed
+gpg: Total number processed: 1
+gpg:              unchanged: 1
+gpg: no valid OpenPGP data found.
+gpg: Total number processed: 0
+gpg: error retrieving 'me@martellmalone.com' via WKD: No fingerprint
+gpg: refreshing 1 key from hkps://keyserver.ubuntu.com
+gpg: key 794DCF97F93FC717: "Martell Malone (martell) <me@martellmalone.com>" not changed
+gpg: Total number processed: 1
+gpg:              unchanged: 1
+gpg: error retrieving 'martellmalone@gmail.com' via WKD: No data
+gpg: error reading key: No data
+gpg: refreshing 1 key from hkps://keyserver.ubuntu.com
+gpg: key D595C9AB2C51581E: "Martell Malone (MSYS2 Developer) <martellmalone@gmail.com>" not changed
+gpg: Total number processed: 1
+gpg:              unchanged: 1
+gpg: error retrieving 'mingw.android@gmail.com' via WKD: No data
+gpg: error reading key: No data
+gpg: refreshing 1 key from hkps://keyserver.ubuntu.com
+gpg: key 4DF3B7664CA56930: "Ray Donnelly (MSYS2 Developer) <mingw.android@gmail.com>" not changed
+gpg: Total number processed: 1
+gpg:              unchanged: 1
+[1;32mInitial setup complete. MSYS2 is now ready to use.[1;0m
+
+[249086] Done
+[249096] Writing maintenance tool: "C:/Users/Nick/Desktop/Visual Studio Code/Nueva carpeta/uninstall.exe.new"
+[249096] Writing maintenance tool.
+[249179] Wrote permissions for maintenance tool.
+[250003] Maintenance tool hard restart: false.
+[250006] Installation finished!
+[283542] starting "C:/Users/Nick/Desktop/Visual Studio Code/Nueva carpeta/ucrt64.exe" QList()

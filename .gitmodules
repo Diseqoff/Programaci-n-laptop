@@ -1,0 +1,3 @@
+[submodule "Python/Programas/Reconocimiento"]
+	path = Python/Programas/Reconocimiento
+	url = https://github.com/Diseqoff/Reconocimiento-Facial.git
